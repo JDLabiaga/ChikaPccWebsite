@@ -62,7 +62,7 @@ export default function DepartmentDetail() {
         {/* CONTENT GRID */}
         <section className="max-w-7xl mx-auto py-24 px-6 grid lg:grid-cols-3 gap-20">
           
-          {/* LEFT: INFO & ACHIEVEMENTS */}
+          {/* LEFT: INFO, ACHIEVEMENTS, & HIGHLIGHTS */}
           <div className="lg:col-span-2 space-y-20">
             
             <div className="border-l-4 border-blue-600 pl-8">
@@ -90,22 +90,74 @@ export default function DepartmentDetail() {
               </div>
             </div>
 
-            {/* ACHIEVEMENTS */}
-            <div>
-              <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tighter mb-10 italic">
-                Academic <span className="text-blue-600 underline decoration-4 underline-offset-8">Excellence</span>
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                {dept.achievements.map((ach, i) => (
-                  <div key={i} className="p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm hover:border-blue-200 transition-colors">
-                    <div className="bg-blue-50 w-10 h-10 rounded-full flex items-center justify-center mb-6">
-                      <span className="text-blue-600 font-black text-xs">★</span>
+              {/* INTERACTIVE ACHIEVEMENTS */}
+              <div>
+                <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tighter mb-10 italic">
+                  Academic <span className="text-blue-600 underline decoration-4 underline-offset-8">Excellence</span>
+                </h3>
+                
+                <div className="grid md:grid-cols-2 gap-8">
+                  {dept.achievements.map((ach, i) => (
+                    <div 
+                      key={i} 
+                      className="group relative p-1 bg-white rounded-[2.5rem] overflow-hidden transition-all duration-500 hover:shadow-[0_20px_50px_rgba(37,99,235,0.15)] hover:-translate-y-2"
+                    >
+                      {/* Animated Background Border Effect */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                      
+                      <div className="relative bg-white h-full p-8 rounded-[2.4rem] z-10">
+                        <div className="flex items-center gap-6">
+                          {/* Interactive Icon Circle */}
+                          <div className="bg-blue-600 w-14 h-14 rounded-2xl flex items-center justify-center transform group-hover:rotate-[360deg] transition-transform duration-700 shadow-lg shadow-blue-200">
+                            <span className="text-white text-xl">★</span>
+                          </div>
+                          
+                          <div className="flex-1">
+                            <span className="text-[10px] font-black text-blue-600 uppercase tracking-widest opacity-60">Verified Achievement</span>
+                            <p className="text-slate-800 font-black text-sm md:text-md leading-tight uppercase tracking-tight mt-1">
+                              {ach}
+                            </p>
+                          </div>
+                        </div>
+                        
+                        {/* Subtle Decorative Element */}
+                        <div className="absolute bottom-4 right-8 opacity-5 group-hover:opacity-20 transition-opacity">
+                          <span className="text-6xl font-black italic">{i + 1}</span>
+                        </div>
+                      </div>
                     </div>
-                    <p className="text-slate-700 font-black text-sm leading-relaxed uppercase tracking-tight">{ach}</p>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
+
+            {/* DEPARTMENT HIGHLIGHTS SECTION */}
+            {dept.highlights && (
+              <div className="pt-10">
+                <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tighter mb-12 italic">
+                  Department <span className="text-blue-600 underline decoration-4 underline-offset-8">Highlights</span>
+                </h3>
+                <div className="space-y-16">
+                  {dept.highlights.map((item, i) => (
+                    <div key={i} className={`flex flex-col ${i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-10 items-center`}>
+                      <div className="w-full md:w-1/2 h-72 rounded-[2.5rem] overflow-hidden shadow-2xl">
+                        <img 
+                          src={item.img} 
+                          className="w-full h-full object-cover hover:scale-110 transition-transform duration-700" 
+                          alt={item.title} 
+                        />
+                      </div>
+                      <div className="w-full md:w-1/2 space-y-4">
+                        <span className="text-blue-600 font-black text-[10px] uppercase tracking-[0.3em]">Event Feature</span>
+                        <h4 className="text-2xl font-black text-slate-900 uppercase italic leading-none">{item.title}</h4>
+                        <p className="text-slate-600 text-sm leading-relaxed font-medium italic">
+                          {item.text}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* RIGHT SIDEBAR */}
@@ -132,7 +184,7 @@ export default function DepartmentDetail() {
                 ))}
               </div>
 
-              <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-5 rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all">
+              <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-5 rounded-2xl font-black uppercase tracking-widest text-[10px] transition-all shadow-xl shadow-blue-900/20">
                 Inquire Admission
               </button>
             </div>

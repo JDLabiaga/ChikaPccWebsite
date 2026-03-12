@@ -17,9 +17,9 @@ export default function Navbar() {
 
   const courseData = [
     { dept: "Information Technology", code: "SOICT", links: ["BS in Information Technology"] },
-    { dept: "Criminal Justice", code: "SOC", links: ["BS in Criminology"] },
+    { dept: "Criminal Justice", code: "SOCJ", links: ["BS in Criminology"] },
     { dept: "Teacher Education", code: "SOTE", links: ["Bachelor of Elementary Education", "Bachelor of Secondary Education"] },
-    { dept: "Business Education", code: "SOBE", links: ["BS in Business Administration"] },
+    { dept: "Business Education", code: "SOBM", links: ["BS in Business Administration"] },
     { dept: "Hospitality Management", code: "SOHM", links: ["BS in Hospitality Management"] },
   ];
 

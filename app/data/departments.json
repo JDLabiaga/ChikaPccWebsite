@@ -1,81 +1,210 @@
 [
   {
-    "id": "soict",
-    "name": "School of Information and Communication Technology",
-    "short": "SOICT",
-    "dean": "Engr. Mylen B. Paderes",
-    "deanImage": "/images/mylen.jpg",
-    "image": "/images/soict_hero.jpg",
-    "description": "The digital frontier of PCC, focusing on software engineering, system networks, and creative multimedia production.",
-    "courses": ["BS in Information Technology (BSIT)"],
-    "achievements": [
-      "Champion: CineStep Short Film-Making Contest (Epektus)",
-      "Best in Cinematography & Editing - LGU Passi City Awards"
-    ],
-    "activities": ["IT Olympiad", "Code Wars", "CineStep Film Fest"]
-  },
+  "id": "soict",
+  "name": "School of Information and Communication Technology",
+  "short": "SOICT",
+  "dean": "Engr. Mylen B. Paderes",
+  "deanImage": "/images/mylen.jpg",
+  "image": "/images/soict_hero.jpg",
+  "description": "The digital frontier of PCC, focusing on software engineering, system networks, and creative multimedia production.",
+  "courses": ["BS in Information Technology (BSIT)"],
+  "achievements": [
+    "Champion: CineStep Short Film-Making Contest (Epektus)",
+    "OIQAG Institutional Evaluation Participant 2025"
+  ],
+  "activities": [
+    "IT Week 2025", 
+    "Futuristic Fashion Runway", 
+    "Flag Raising Leadership"
+  ],
+  "highlights": [
+    {
+      "title": "IT Week 2025: The Grand Finale",
+      "text": "The SOICT community gathered for the IT Week 2025 Awarding Ceremony, marking the final chapter of a week filled with creativity, skill, and spirited competition. When ITSians cheer, they don't just bring noise, they make extraordinary history.",
+      "img": "/images/it1.jpg"
+    },
+    {
+      "title": "Futuristic Fashion Runway",
+      "text": "Students stepped into the spotlight with bold concepts and striking designs, turning the SOICT stage into a showcase of innovation, vision, and style.",
+      "img": "/images/it2.jpg"
+    },
+    {
+      "title": "OIQAG Institutional Evaluation",
+      "text": "Passi City College warmly welcomed the esteemed evaluators from the Office of Institutional Quality Assurance and Governance (OIQAG) on October 28, 2025.",
+      "img": "/images/it3.jpg"
+    }
+  ]
+},
+
+{
+  "id": "soc",
+  "name": "School of Criminal Justice",
+  "short": "SOCJ",
+  "dean": "Sir Heriberto G. Ulgasan Jr.",
+  "deanImage": "/images/heriberto.jpg",
+  "image": "/images/soc_hero.jpg",
+  "description": "Excellence in law enforcement training, criminalistics, and public safety leadership.",
+  "courses": ["BS in Criminology (BSCrim)"],
+  "achievements": [
+    "Consistent High Passing Rate in Licensure Examinations",
+    "Top Performing Delegates in Regional Security Operations",
+    "Pioneer: Mr. & Ms. SOCJ Pageant 2024"
+  ],
+  "activities": [
+    "Criminology Week",
+    "BISOC Training",
+    "Marksmanship Seminar",
+    "Forensic Workshop",
+    "Crime Scene Simulation"
+  ],
+  "highlights": [
+    {
+      "title": "Criminology Week 2024: Unleash the Justice",
+      "text": "From Nov. 12-16, 2024, SOCJ delved into the world of forensics and law enforcement. The week-long event featured engaging activities, informative symposiums, and thrilling competitions designed to inspire the next generation of justice protectors.",
+      "img": "/images/socj1.jpg"
+    },
+    {
+      "title": "Mr. & Ms. SOCJ 2024: Beauty and Bravery",
+      "text": "History in the making! The aspiring candidates for the first-ever Mr. & Ms. SOCJ showcased their unique personalities and vibrant spirits. This event celebrates the balance of character, intelligence, and leadership in the field of Criminology.",
+      "img": "/images/socj2.jpg"
+    }
+  ]
+},
   {
-    "id": "soc",
-    "name": "School of Criminal Justice",
-    "short": "SOC",
-    "dean": "Sir Heriberto G. Ulgasan Jr.",
-    "deanImage": "/images/heriberto.jpg",
-    "image": "/images/soc_hero.jpg",
-    "description": "Excellence in law enforcement training, criminalistics, and public safety leadership.",
-    "courses": ["BS in Criminology (BSCrim)"],
-    "achievements": [
-      "Top Performing Delegates in Regional Security Operations",
-      "Consistent High Passing Rate in Licensure Examinations"
-    ],
-    "activities": ["BISOC Training", "Marksmanship Seminar", "Forensic Workshop"]
-  },
-  {
-    "id": "sobed",
-    "name": "School of Business Management",
-    "short": "SOBM",
-    "dean": "Dr. Gina L. Batayola",
-    "deanImage": "/images/gina.jpg",
-    "image": "/images/sobm_hero.jpg",
-    "description": "Developing globally competitive entrepreneurs and financial managers through community-anchored programs.",
-    "courses": ["BSBA in Financial Management", "BSBA in Marketing Management"],
-    "achievements": [
-      "6th Place: 29th Philippine Statistics Quiz",
-      "National Finalists: 35th COMEPP Business Pitch Competition"
-    ],
-    "activities": ["Financial Literacy Symposium", "Business Pitching", "Community Outreach"]
-  },
-  {
-    "id": "sohm",
-    "name": "School of Hospitality Management",
-    "short": "SOHM",
-    "dean": "Jojo Tibang",
-    "deanImage": "/images/jojo.jpg",
-    "image": "/images/sohm_hero.jpg",
-    "description": "World-class training in culinary arts, hotel operations, and global tourism management.",
-    "courses": ["BS in Hospitality Management (BSHM)"],
-    "achievements": [
-      "Regional Culinary Competition Awardees",
-      "Official Catering Partner for ALCOR VI Events"
-    ],
-    "activities": ["Culinary Expo", "Table Setting Competition", "Hotel Immersion"]
-  },
-  {
-    "id": "sote",
-    "name": "School of Teacher Education",
-    "short": "SOTE",
-    "dean": "Dr. Mario T. Mogote",
-    "deanImage": "/images/mario.jpg",
-    "image": "/images/sote_hero.jpg",
-    "description": "Nurturing the next generation of educators with high moral standards and pedagogical excellence.",
-    "courses": [
-      "Bachelor of Elementary Education (BEED)",
-      "BSED major in English",
-      "BSED major in Mathematics"
-    ],
-    "achievements": [
-      "100% Passing Rate for First-Time Takers (LET)",
-      "Outstanding Student Teaching Performance Awards"
-    ],
-    "activities": ["Teaching Demonstrations", "Literacy Extension", "ASEAN Day Cultural Fest"]
-  }
+  "id": "sobe",
+  "name": "School of Business Management",
+  "short": "SOBM",
+  "dean": "Dr. Lucila L. Castro",
+  "deanImage": "/images/lucila.jpg",
+  "image": "/images/sobm_hero.jpg",
+  "description": "Empowering future leaders through innovative business strategies and entrepreneurial excellence.",
+  "courses": [
+    "BS in Business Administration (BSBA)",
+    "Major in Financial Management",
+    "Major in Marketing Management"
+  ],
+  "achievements": [
+    "Champion: College Week Lip Sync Showdown 2026",
+    "Highest Student Population for 2025-2026",
+    "Regional Marketing Competition Finalist"
+  ],
+  "activities": [
+    "Yellow Falcons Creative Guild",
+    "Business Week Expo",
+    "WVRAA 2026 Support",
+    "Annual Foot Parade",
+    "Entrepreneurship Seminar"
+  ],
+  "highlights": [
+    {
+      "title": "Yellow Falcons Win Lip Sync Showdown",
+      "text": "The Yellow Falcons brought cartoon adventure to life with a Dora the Explorer concept, creatively 'exploring' the houses of animated characters. Their imaginative theme and energetic choreography drew the loudest cheers in the arena.",
+      "img": "/images/sobm1.jpg"
+    },
+    {
+      "title": "College Week 2026: Grand Foot Parade",
+      "text": "SOBM showcased massive institutional pride during the Foot Parade on February 23. Our official muses, escorts, and student leaders led the march from the Esplanade, radiating unity and the SOBM spirit.",
+      "img": "/images/sobm2.jpg"
+    },
+    {
+      "title": "Preparation for WVRAA 2026",
+      "text": "SOBM faculty and student volunteers joined forces during the College Do-Day to prepare facilities for the Aklan delegates. Our spirit of teamwork ensures a hospitable stay for our visiting athletes.",
+      "img": "/images/sobm3.jpg"
+    }
+  ]
+},
+
+{
+  "id": "sohm",
+  "name": "School of Hospitality Management",
+  "short": "SOHM",
+  "dean": "Dr. Jojo L. Tibang",
+  "deanImage": "/images/jojo.jpg",
+  "image": "/images/sohm_hero.jpg",
+  "description": "World-class training in culinary arts, hotel operations, and global tourism management.",
+  "courses": ["BS in Hospitality Management (BSHM)"],
+  "achievements": [
+    "Dean Jojo Tibang: VP of CHEDRO6 Council of Deans",
+    "Regional Culinary Competition Awardees",
+    "Official Catering Partner for ALCOR VI Events"
+  ],
+  "activities": [
+    "Hotel Familiarization",
+    "Boracay Internship Program",
+    "WVRAA Preparation",
+    "Kapistahan Opening 2026",
+    "Culinary Expo"
+  ],
+  "highlights": [
+    {
+      "title": "Hotel Familiarization at Park Inn by Radisson",
+      "text": "First-year BSHM students participated in an immersive hotel familiarization at Park Inn by Radisson, Iloilo City on March 11, 2026, bridging classroom theory with world-class industry standards.",
+      "img": "/images/sohm1.jpg"
+    },
+    {
+      "title": "Dean Tibang Inducted as CHEDRO6 Vice President",
+      "text": "A leadership milestone: Dr. Jojo L. Tibang has been officially inducted as Vice President (LUC Representative) for the Council of Deans for Hospitality and Tourism Education (CHEDRO6) for 2025–2028.",
+      "img": "/images/sohm2.jpg"
+    },
+    {
+      "title": "SOHM Interns Deploy to Boracay",
+      "text": "Our 4th-year BSHM students were deployed to the world-renowned Boracay Island on January 10, 2026. Ready to gain hands-on experience in one of the world's top tourism destinations!",
+      "img": "/images/sohm3.jpg"
+    },
+    {
+      "title": "Community Unity: WVRAA Do-Day & Kapistahan",
+      "text": "From leading campus-wide preparations for the WVRAA Meet to proudly representing PCC in the Kapistahan 2026 Opening Program, SOHM continues to be an integral part of Passi City's traditions.",
+      "img": "/images/sohm4.jpg"
+    }
+  ]
+},
+
+{
+  "id": "sote",
+  "name": "School of Teacher Education",
+  "short": "SOTE",
+  "dean": "Dr. Mario T. Mogote",
+  "deanImage": "/images/mario.jpg",
+  "image": "/images/sote_hero.jpg",
+  "description": "Nurturing the next generation of educators with high moral standards and pedagogical excellence.",
+  "courses": [
+    "Bachelor of Elementary Education (BEED)",
+    "BSED major in English",
+    "BSED major in Mathematics"
+  ],
+  "achievements": [
+    "3rd Place: 18th Statistical Analysis Contest (CHED VI)",
+    "100% Passing Rate for First-Time Takers (LET)",
+    "Outstanding Student Teaching Performance Awards"
+  ],
+  "activities": [
+    "PCC Hinampang 2026",
+    "Flag Raising Leadership",
+    "VAW Awareness Campaign",
+    "Teaching Demonstrations",
+    "Literacy Extension"
+  ],
+  "highlights": [
+    {
+      "title": "PCC Hinampang 2026: Compete, Thrive, Achieve",
+      "text": "At the City of Passi Arena (COPA), SOTE students ignited the spirit of excellence during the opening of Hinampang 2026. From the vibrant foot parade to the electrifying cheer dance and dancesport performances, the arena roared with school pride.",
+      "img": "/images/sote1.jpg"
+    },
+    {
+      "title": "SOTE Shines in 18th Statistical Analysis Contest",
+      "text": "Justin A. Salutin and Jhon Loyd M. Centina secured 3rd Place in the CHED Regional Office VI competition. This achievement showcases the exceptional analytical skills and dedication of our future educators.",
+      "img": "/images/sote2.jpg"
+    },
+    {
+      "title": "Leading the Spirit of Patriotism",
+      "text": "The School of Teacher Education successfully led the first flag-raising ceremony of 2026. This event highlights our school's commitment to fostering a deep love for country and unity within the academic community.",
+      "img": "/images/sote3.jpg"
+    },
+    {
+      "title": "Standing Together: End VAW Campaign",
+      "text": "SOTE stood at the forefront of the 18-Day Campaign to End Violence Against Women. Led by Dr. Janice Jennifer P. Palmares and our GAD coordinators, we strengthened our commitment to a safe and inclusive institution.",
+      "img": "/images/sote4.jpg"
+    }
+  ]
+}
 ]
