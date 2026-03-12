@@ -7,7 +7,7 @@ const departments = [
     name: "Information & Communications Technology", 
     short: "SOICT",
     // Image: Focused on high-tech coding and digital systems
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000", 
+    image: "/images/soict-banner.jpg", 
     desc: "Mastering software development, network systems, and the future of digital innovation.",
     courses: ["BS in Information Technology (BSIT)"]
   },
@@ -16,7 +16,7 @@ const departments = [
     name: "Criminal Justice Education", 
     short: "SOC",
     // Image: Focused on forensic investigation and law enforcement
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1000", 
+    image: "/images/soc-banner.jpg", 
     desc: "Rigorous training in law enforcement, public safety, and the pillars of justice.",
     courses: ["BS in Criminology (BSCrim)"]
   },
@@ -25,7 +25,7 @@ const departments = [
     name: "Business Education", 
     short: "SOBED",
     // Image: Focused on stock markets, finance, and corporate strategy
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000", 
+    image: "/images/sobed-banner.jpg", 
     desc: "Developing strategic leaders in financial management and marketing excellence.",
     courses: [
       "BSBA in Financial Management", 
@@ -37,7 +37,7 @@ const departments = [
     name: "Hospitality Management", 
     short: "SOHM",
     // Image: Focused on professional kitchen/culinary arts
-    image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1000", 
+    image: "/images/sohm-banner.jpg", 
     desc: "World-class training for the culinary, hotel, and global tourism industry.",
     courses: ["BS in Hospitality Management (BSHM)"]
   },
@@ -46,7 +46,7 @@ const departments = [
     name: "Teacher Education", 
     short: "SOTE",
     // Image: Focused on traditional classroom instruction and inspiration
-    image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1000", 
+    image: "/images/sote.jpg", 
     desc: "Nurturing the next generation of educators in Elementary and Secondary levels.",
     courses: [
       "Bachelor of Elementary Education (BEED)",
