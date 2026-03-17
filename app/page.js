@@ -63,7 +63,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { label: 'Students', val: '4,000+' },
-              { label: 'Pass Rate', val: '92%' },
+              { label: 'Pass Rate', val: '75%' },
               { label: 'Faculty', val: '150+' },
               { label: 'Awards', val: '45' }
             ].map((stat, i) => (
